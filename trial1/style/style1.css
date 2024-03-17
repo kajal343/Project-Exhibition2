@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-family:"Lucida Handwriting";
+}
+body{
+    margin:0;
+    font-family:sans-serif;
+    background-color:#89dd65;
+}
+.section1,
+.section3,
+.section5 {
+    background-color: rgb(70, 31, 31);
+    display:flex;
+    justify-content: space-between; 
+    padding:25px;
+    height: 355px;
+    width:60%;
+    margin-bottom:2rem;
+}
+.section1 img,
+.section3 img,
+.section5 img{
+    height:200px;
+    float: right;
+    margin-top: 60px;
+}
+.section1 h4,
+.section3 h4,
+.section5 h4{
+    margin:0;
+    color:greenyellow;
+}
+.section1 p,
+.section3 p,
+.section5 p{
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+    margin-right:12px;
+}
+.section2,
+.section4 {
+    background-color:rgb(70, 31, 31);
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+    height: 350px;
+    width:59%;
+    margin: 1rem 0 0 auto;
+    margin-bottom:2rem;
+}
+.section2 img,
+.section4 img{
+    height:200px ;
+    float: right;
+    margin-top: 60px;
+}
+.section2 h4,
+.section4 h4{
+    margin:0;
+    color:greenyellow;
+}
+.section2 p,
+.section4 p{
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+    margin-right:12px;
+}
+

@@ -1,0 +1,48 @@
+
+body {
+    background-image: url(pictures/barley-field-1684052.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(15px);
+  }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(236, 222, 222, 0.5);
+    border-radius: 15px;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none ;
+    background-color: #5d4322;
+    color: white;
+    cursor: pointer;
+  }
+
+  label {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+  }
